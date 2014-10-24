@@ -1,0 +1,9 @@
+Inspect a GIT repository and analyze the size of the files.
+How to use:
+
+```bash
+./inspect.sh PATH_TO_GIT_REPOSITORY filename.any
+```
+
+where filename.any is the name of the file being tracked through the history 
+of the GIT repository.
