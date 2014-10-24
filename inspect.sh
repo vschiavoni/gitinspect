@@ -7,5 +7,5 @@ for sha in $(git log --pretty=format:%h); do
 	git checkout $sha; 
 	echo $sha $(wc -l $filename) >> /tmp/file-history.txt; 
 done
-
+git checkout master
 #git log --abbrev-commit --pretty=oneline --merges | cut -f 1 -d" " | xargs git checkout
